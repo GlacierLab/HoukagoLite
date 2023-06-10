@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ApplicationDefinition Remove="Application.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="window.js" />
   </ItemGroup>
 
@@ -30,6 +34,10 @@
     <Import Include="System.Windows.Media.Imaging" />
     <Import Include="System.Windows.Navigation" />
     <Import Include="System.Windows.Shapes" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Application.xaml" />
   </ItemGroup>
 
   <ItemGroup>
